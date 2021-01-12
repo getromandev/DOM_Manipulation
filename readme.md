@@ -24,24 +24,24 @@ Parts 1 through 8 are required, Part 9 is BONUS.
 ## Accessing DOM Elements (Querying)
 Let's start with some simple query selecting.
 
-#### Part 1
+#### Part 1 ✅
 DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the `#main-title` ID element. Remember there are a couple of ways to query **id**. Change the **text** of the title to something shorter.
 
-#### Part 2
+#### Part 2 ✅
 Select the `body` and change the background-color to a new color of your choice.
 
-#### Part 3
+#### Part 3 ✅
 Select **DOM's Favorite Things** list and remove the last list item.
 
-#### Part 4
+#### Part 4 ✅
 Select all `.special-title` class elements and change their `font-size` to `2rem`. Remember you might have to iterate through the list of elements
 
-#### Part 5
+#### Part 5 ✅
 Turns out DOM never raced in **Chicago**. Access the **Past Races** list and remove **Chicago**.
 
 ## Creating New DOM Elements
 
-#### Part 6
+#### Part 6 ✅
 Let's add to DOM's **Past Races** list. Create a new `<li>` element, change the new `<li>` text to the name of a city, and append it to the **Past Races** list.
 
 #### Part 7

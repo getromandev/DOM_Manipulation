@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   pastRaceListNodes.removeChild(pastRaceListNodes.childNodes[7])
 
   // Part 6
-  const grabIdOfPastRace = document.getElementById('pastRace')
+  const grabIdOfPastRace = document.getElementById('pastRace');
   const newRaceEl = document.createElement('li');
   const newRaceTextNode = document.createTextNode('East Harlem');
   const appendBoth = newRaceEl.appendChild(newRaceTextNode); 
@@ -48,7 +48,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
   grabIdOfPastRace.appendChild(appendBoth);
 
   // Part 7
+  let newDiv = document.createElement('div')
+  newDiv.classList.add('blog-post', 'purple');
+  console.log('newDiv >>>', newDiv);
 
+  let newHeaderTwo = document.createElement('h1');
+  newHeaderTwo.innerHTML = 'Harlem'
+  console.log('newHeaderTwo >>>', newHeaderTwo);
+
+  let newParaGraphNode = document.createElement('p');
+  newParaGraphNode.innerHTML = 'Dipset all day'
+
+  let item = document.querySelector('.main');
+  console.log('item >>>', item);
+
+  newDiv.appendChild(newHeaderTwo)
+  newDiv.appendChild(newParaGraphNode)
+  item.appendChild(newDiv)
 
   // Part 8
 

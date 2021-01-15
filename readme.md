@@ -49,7 +49,7 @@ Create a new `.blog-post` corresponding to the new city added in **Part 6**. You
 
 ## Event Handlers
 
-#### Part 8
+#### Part 8 ✅
 When you reload the page, the `script.js` file loads a random DOM quote. Let's play with the included function:
 
 ```javascript

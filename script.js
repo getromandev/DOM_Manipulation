@@ -68,6 +68,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   // Part 8
 
+  let quoteTitle = document.getElementById('quote-title')
+  quoteTitle.addEventListener('click', randomQuote);
 
   // Part 9
 

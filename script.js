@@ -72,8 +72,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
   quoteTitle.addEventListener('click', randomQuote);
 
   // Part 9
+  let blogPosts = document.getElementsByClassName('blog-post');
+  console.log('blogPosts >>>', blogPosts);  
 
+  for (let el of blogPosts) {
+    console.log('el >>>', el);
+    let turnRed = () => el.classList.toggle('red');
+    let turnPurple = () => el.classList.toggle('purple');
 
-
-
+    el.addEventListener('mouseenter', turnRed)
+    el.addEventListener('mouseout', turnPurple);
+  }
 });

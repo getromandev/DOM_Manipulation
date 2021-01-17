@@ -60,7 +60,7 @@ var randomQuote = function() {
 
 Query select the `#quote-title` ID element and add a **click** event handler. That event handler should use the function `randomQuote` whenever `#quote-title` is clicked.
 
-#### Part 9
+#### Part 9 ✅
 Select all `.blog-post` class elements. Iterate through the list of `.blog-post` class elements and apply two event handlers to each node. The first event handler should be listening for `mouseout` events while the second handler should be listening for `mouseenter` events.
 
 - The `mouseout` handler should toggle the class `.purple`
@@ -71,8 +71,3 @@ Test it out!
 > Hint:
 
 > Remember the document node property `.classList` and the document node method `.toggle()`.
-
-
-## Homework Submission:
-
-Homework is due tonight by **11pm**. Follow the [Homework Guide](https://git.generalassemb.ly/wdi-nyc-1-30/syllabus/wiki/Homework-Submission) for submission instructions.
